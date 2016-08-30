@@ -1,0 +1,166 @@
+"Protege":{
+  "id":
+  ,"userId":
+  ,"goals":[]
+  ,"behavioralScore":
+  ,"createdAt":
+  ,"lastActivity":
+  ,"lastUpdated":
+  ,"headline":
+  ,"protegeTermsAcceptedFlag":
+}
+
+,"Mentor":{
+  "id":
+  ,"userId":
+  ,"createdAt":
+  ,"lastActivity":
+  ,"lastUpdated":
+  ,"headline":
+  ,"maxProteges":
+  ,"referredById":
+  ,"referredByEmail":
+  ,"networkApproval":{
+      "approvedBy":[]
+      ,"rejectedBy":[]
+      ,"noResponse":[]
+    }
+  ,"approvedByMajorityFlag":
+  ,"mentorTermsAcceptedFlag":
+  ,"visibleToMentorNwFlag":
+  ,"acceptingProtegesFlag":
+}
+
+,"Relationships":{
+  "id":
+  ,"type":
+  ,"mentorId":
+  ,"protegeId":
+  ,"createdAt":
+  ,"endedAt":
+  ,"lastActivity:":
+  ,"currentFlag":
+}
+
+,"Message":{
+  "id":
+  ,"fromId":
+  ,"toId":
+  ,"relationshipId":
+  ,"language":
+  ,"createdAt":
+  ,"timeZone":
+  ,"utcOffset":
+  ,"messageText":
+  ,"geo":{
+    "latitude":
+    ,"longitude":
+    }
+  ,"readFlag":
+  ,"protegeFavoritedFlag":
+  ,"mentorFavoritedFlag":
+}
+
+,"UserProfile":{
+  "id":
+  ,"mentorId":
+  ,"protegeId":
+  ,"name":{
+    "first":
+    ,"middle":
+    ,"last":
+    }
+  ,"email":
+  ,"gender":
+  ,"dateOfBirth":
+  ,"createdAt":
+  ,"lastActivity":
+  ,"lastUpdated":
+  ,"profileImg":
+  ,"url":
+  ,"industry":
+  ,"currentCompany":
+  ,"education":[
+      { "institutionId":
+        ,"degreeAttained":
+        ,"graduationYear":
+        ,"alumniAssocMemberFlag":
+      }
+    ]
+  ,"location":{
+    "city":
+    ,"state":
+    ,"zip":
+    ,"country":
+    ,"geo":{
+      "latitude":
+      ,"longitude":
+      }
+    }
+  ,"experience":[
+      { "company":
+        ,"title":
+        ,"summary":
+        ,"startDate":
+        ,"endDate":
+        ,"isCurrent":
+      }
+    ]
+  ,"abuserFlag":
+  ,"userTermsAcceptedFlag":
+  ,"userValidatedFlag":
+  ,"userVerifiedFlag":
+  ,"activeFlag":
+  }
+
+,"UserAccount":{
+  "id":
+  ,"userProfileId":
+  ,"type":
+  ,"email":
+  ,"password":
+  ,"passwordSalt":
+  ,"passwordHash":
+  ,"accountStatusId":
+  ,"passwordReminderExpire":
+  }
+
+,"FacebookAccount":{}
+
+,"LinkedinAccount":{}
+
+,"GoogleAccount":{}
+
+,"Attachments":{
+  "messageId":
+  ,"attachmentType":
+  ,"attachmentTitle":
+  ,"attachmentUrl":
+  ,"attachmentSize":
+  }
+
+,"EducationInstitutions":{
+  "id":
+  ,"ein":
+  ,"dataSource":
+  ,"yearLoaded":
+  ,"name":
+  ,"url":
+  ,"location":{
+    "street":
+    ,"city":
+    ,"state":
+    ,"zip":
+    ,"countryCode":
+    ,"geo":{
+      "latitude":
+      ,"longitude":
+      }
+    }
+  }
+
+,"AccountStatus":{
+  "id":
+  ,"code":
+  ,"name":
+}
